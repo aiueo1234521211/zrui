@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- アプリのカメラ使用に関する説明 -->
+    <key>NSCameraUsageDescription</key>
+    <string>写真撮影のためにカメラを使用します</string>
+
+    <!-- アプリのフォトライブラリ使用に関する説明 -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>写真の保存のためにフォトライブラリを使用します</string>
+
+    <!-- 写真ライブラリに追加するための権限 -->
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>撮影した写真を保存するためにフォトライブラリを使用します</string>
+
+    <!-- アプリがマイクを使用する理由 -->
+    <key>NSMicrophoneUsageDescription</key>
+    <string>ビデオ撮影時の音声録音のためにマイクを使用します</string>
+
+    <!-- アプリの基本的な設定 -->
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleDisplayName</key>
+    <string>My Camera App</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>My Camera App</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+
+    <!-- iPhoneOSを要求 -->
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+
+    <!-- アプリの起動設定 -->
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+
+    <!-- メインのストーリーボード -->
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+
+    <!-- サポートされているインターフェースの方向 -->
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+
+    <!-- アプリがインタラクティブな入力イベントをサポートするか -->
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+</dict>
+</plist>
+
